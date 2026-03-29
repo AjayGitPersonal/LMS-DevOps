@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/AjayGitPersonal/LMS-DevOps.git'
-            }
-        }
 
         stage('Frontend Build') {
             steps {
